@@ -1,0 +1,126 @@
+@media screen  and (max-width:1150px)
+{
+   #navbar
+   {
+
+      flex-direction:column;
+   }
+   #navbar a
+   {
+      font-size: 1rem;
+      padding: 0px 7px;
+
+   }
+   #home
+   {
+      height: 370px;
+      padding:3px 28px;
+      /* margin-top:  25px; */
+   }
+   #home::before
+   {
+      height:500px;
+      
+   }
+   #home p
+   {
+font-size: 13px;
+   }
+   #services
+   {
+      flex-direction: column;
+   }
+   #services .box
+   {
+      margin: 10px;
+
+   }
+   .menu
+   {
+      height:auto;
+      /* border: 2px solid yellow; */
+   }
+   #menu-items div
+   {
+      flex-wrap: wrap;
+      font-size:1.2rem;
+      padding: 20px;
+      margin:10px 10px;
+      
+   
+   }
+   .h1-primary
+   {
+      padding: 10px;
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+   }
+   #menu-items
+   {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .marq marquee
+   {
+      behavior: slide;
+      font-size: 14px;
+   }
+  #review
+  {
+     grid-template-columns: 1fr;
+  }
+  
+
+
+  .customer
+  {
+     width: auto;
+     font-size: 2rem;
+  }
+  .content
+  {
+   padding: 18px;
+   overflow: hidden;
+  }
+  .p-review
+  {
+     padding: 5px;
+     font-size: 1rem;
+  }
+  .h3-review
+  {
+     font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width:767px)
+{
+   .rev{
+      flex-direction: row;
+   }
+   .revimg
+   {
+      width: auto;
+   }
+}
+@media screen and (max-width:550px)
+{
+   .rev
+   {
+      flex-direction: column;
+      align-items:center;
+      justify-content: space-evenly;
+   }
+   
+   .revimg{
+      width: 80%;
+      margin: 0;
+   }
+   .content
+{
+   margin: 10px;
+   width: 100%;
+}
+  
+}
